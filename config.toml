@@ -2,18 +2,14 @@ base_url = "https://no-style-please.netlify.app/"
 title = "no style, please!"
 description = "A (nearly) no-CSS, fast, minimalist Zola theme."
 compile_sass = true
-generate_feed = true
+generate_feeds = true
 default_language = "en"
 taxonomies = [{ name = "tags" }, { name = "categories" }]
 
-[markdown]
-highlight_code = true
-
 [languages.zh]
 title = "无需样式!"
-generate_feed = true
+generate_feeds = true
 taxonomies = [{ name = "tags" }, { name = "categories" }]
-
 
 [extra]
 author = "Ahmed Alaa"
