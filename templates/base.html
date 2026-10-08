@@ -91,6 +91,7 @@
         <link rel="stylesheet" href="{{ get_url(path='style.css', trailing_slash=false) | safe }}"/>
         {% endblock css -%}
         {% block head %}{% endblock head %}
+        <script defer src={{ get_url(path='/cat/brain.js') }} type="text/javascript"></script>
         <script defer src={{ get_url(path='/cat/ai.js') }} type="text/javascript"></script>
     </head>
     <body>
